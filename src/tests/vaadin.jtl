@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="1000" it="0" lt="0" ct="0" ts="1605021829752" s="true" lb="001_localhost:8080" rc="" rm="" tn="RECORDER" dt="" by="3093" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="001 /" rc="200" rm="DOCUMENT" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache&#xd;
+Content-Length: 2165&#xd;
+Content-Type: text/html;charset=utf-8&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Thu, 01 Jan 1970 00:00:00 GMT&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+Set-Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0;Path=/&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Upgrade-Insecure-Requests: 1&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="002 /VAADIN/vaadinBootstrap.js" rc="200" rm="SCRIPT" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 3958&#xd;
+Content-Type: application/javascript&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:41 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/vaadinBootstrap.js?v=8.12.0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="003 /VAADIN/themes/mytheme/styles.css" rc="200" rm="STYLESHEET" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 358573&#xd;
+Content-Type: text/css&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 15:03:46 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: text/css,*/*;q=0.1&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="004 /VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/com.vaadin.DefaultWidgetSet.nocache.js" rc="200" rm="SCRIPT" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: public, max-age=0, must-revalidate&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 3230&#xd;
+Content-Type: application/javascript&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:29 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/com.vaadin.DefaultWidgetSet.nocache.js?1605021708668</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="005 /" rc="200" rm="XHR" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 7865&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-type: application/x-www-form-urlencoded&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 277&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">v-browserDetails=1&amp;theme=mytheme&amp;v-appId=ROOT-2521314&amp;v-sh=1080&amp;v-sw=1920&amp;v-cw=1547&amp;v-ch=730&amp;v-curdate=1605021708669&amp;v-tzo=-60&amp;v-dstd=60&amp;v-rtzo=-60&amp;v-dston=false&amp;v-tzid=Europe%2FPrague&amp;v-vw=1547&amp;v-vh=0&amp;v-loc=http%3A%2F%2Flocalhost%3A8080%2F&amp;v-wn=ROOT-2521314-0.3159432979648469</queryString>
+    <java.net.URL>http://localhost:8080/?v-1605021708669</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="006 /VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/68879622C599FE6D0FFDE267BDB260B9.cache.js" rc="200" rm="SCRIPT" tn="RECORDER" dt="text" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=31536000&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 364372&#xd;
+Content-Type: application/javascript&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Fri, 27 Nov 2020 16:02:17 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:29 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/68879622C599FE6D0FFDE267BDB260B9.cache.js</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="007 /VAADIN/themes/valo/shared/img/spinner.gif" rc="200" rm="IMAGE" tn="RECORDER" dt="bin" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 7194&#xd;
+Content-Type: image/gif&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: image/webp,image/apng,image/*,*/*;q=0.8&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/shared/img/spinner.gif</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="008 /VAADIN/themes/valo/fonts/open-sans/OpenSans-Light-webfont.woff" rc="200" rm="FONT" tn="RECORDER" dt="" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 22248&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/fonts/open-sans/OpenSans-Light-webfont.woff</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="009 /VAADIN/themes/valo/fonts/open-sans/OpenSans-Regular-webfont.woff" rc="200" rm="FONT" tn="RECORDER" dt="" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 22660&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/fonts/open-sans/OpenSans-Regular-webfont.woff</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="010 /VAADIN/themes/valo/fonts/fontawesome-webfont/fontawesome-webfont.woff" rc="200" rm="FONT" tn="RECORDER" dt="" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 83588&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:21:48 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/fonts/fontawesome-webfont/fontawesome-webfont.woff</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="011 /VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/deferredjs/68879622C599FE6D0FFDE267BDB260B9/8.cache.js" rc="200" rm="SCRIPT" tn="RECORDER" dt="text" by="2590" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=31536000&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 1201&#xd;
+Content-Type: application/javascript&#xd;
+Date: Tue, 10 Nov 2020 15:21:48 GMT&#xd;
+Expires: Fri, 27 Nov 2020 16:02:17 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:29 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">$wnd.com_vaadin_DefaultWidgetSet.runAsyncCallback8(&quot;function g8c(){dUb.call(this)}\nfunction VTd(){$Pd.call(this);this.J=kGe}\nfunction wpb(){xpb.call(this,(olb(),$l($doc)));this.Bb.style[bje]=Woe;this.Bb.style[jne]=oje}\nfunction tpb(a,b,c,d){var e;Hob(b);e=a.L.c;a.we(b,c,d);hpb(a,b,(olb(),a.Bb),e,true)}\nfunction Pqc(a,b){IRb(a.a,new aBc(new sBc(Bcb),&apos;openPopup&apos;),pz(hz(igb,1),Hhe,1,5,[(g_d(),b?true:false)]))}\nfunction f8c(a){if(a.Ul().c&amp;&amp;(a.Ul().A==null||a.Ul().A.length==0)){return a.Ul().a}return a.Ul().A}\nfunction vpb(a,b,c){var d;d=(olb(),a.Bb);if(b==-1&amp;&amp;c==-1){ypb(d)}else{d.style[bje]=eje;d.style[Gje]=b+dne;d.style[wme]=c+dne}}\nvar HFe=&apos;&lt;br&gt;&apos;,IFe={62:1,130:1,89:1,157:1,93:1,99:1,79:1,59:1,55:1,63:1,64:1,66:1,65:1,67:1,68:1,69:1,104:1,91:1,92:1,90:1,112:1,119:1,158:1,83:1,97:1,95:1,96:1,94:1,98:1,103:1,102:1,101:1,100:1,21:1,19:1,20:1,142:1,72:1,154:1,141:1,18:1,37:1,40:1,22:1,39:1,61:1,87:1,155:1,156:1,88:1,17:1,14:1,26:1},LFe=&apos;red&apos;,NFe=&apos;yellow&apos;,_Fe=&apos;Medium&apos;,dGe=&apos;popupVisible&apos;,eGe=&apos;showDefaultCaption&apos;,fGe=&apos;setColor&apos;,gGe=&apos;setOpen&apos;,hGe=&apos;background&apos;,iGe={52:1,8:1,11:1,46:1,24:1,28:1,34:1,25:1,43:1,27:1,3:1},jGe=&apos;com.vaadin.client.ui.colorpicker&apos;,kGe=&apos;v-colorpicker&apos;,GGe=&apos;v-default-caption-width&apos;;vjb(503,274,vme,wpb);_.we=function Apb(a,b,c){vpb(a,b,c)};vjb(127,14,zme);_.Tc=function Spb(a){return Bob(this,a,(ht(),ht(),gt))};vjb(795,39,Jme);_.Tc=function Vrb(a){return Bob(this,a,(ht(),ht(),gt))};vjb(2371,61,IFe);var NG=W_d(tme,&apos;FocusPanel&apos;,2371,JH);vjb(196,557,Nme);_.Tc=function rtb(a){return Bob(this,a,(ht(),ht(),gt))};vjb(327,14,Ume);_.Tc=function hub(a){return Cob(this,a,(ht(),ht(),gt))};vjb(941,454,lne);_.we=function yxb(a,b,c){b-=Dm($doc);c-=Em($doc);vpb(a,b,c)};vjb(2505,14,tAe);_.Tc=function NCc(a){return Bob(this,a,(ht(),ht(),gt))};vjb(769,34,iGe);_.eg=function i8c(){return this.Ul()};_.fg=function j8c(){return this.Ul()};_.bg=function h8c(){return false};_.Ul=function k8c(){return !this.P&amp;&amp;(this.P=vFb(this)),_z(_z(this.P,6),247)};_.Og=function l8c(){gA(this.vg(),59)&amp;&amp;_z(this.vg(),59).Tc(this)};_.Dg=function m8c(a){XTb(this,a);if(a.uh(qre)){this.Vl();this.Ul().c&amp;&amp;(this.Ul().A==null||this.Ul().A.length==0)&amp;&amp;this.Wl(this.Ul().a)}if(a.uh(Ooe)||a.uh(rxe)||a.uh(eGe)){this.Wl(f8c(this));this.Ul().c&amp;&amp;(this.Ul().A==null||this.Ul().A.length==0)&amp;&amp;this.Ul().L.length==0?this.vg().Wd(GGe):this.vg()._d(GGe)}};var t3=W_d(jGe,&apos;AbstractColorPickerConnector&apos;,769,q$);vjb(247,12,{6:1,12:1,30:1,105:1,247:1,3:1});_.a=null;_.b=false;_.c=false;var vcb=W_d(qze,&apos;AbstractColorPickerState&apos;,247,ibb);uhe(Dh)(8);\n//# sourceURL=com.vaadin.DefaultWidgetSet-8.js\n&quot;)
+</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/deferredjs/68879622C599FE6D0FFDE267BDB260B9/8.cache.js</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="012 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="155" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 155&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:21:49 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 123&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 1, &quot;clientId&quot;: 1, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{}, &quot;hierarchy&quot;:{}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[3, 2]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;0&quot;,&quot;com.vaadin.shared.ui.ui.UIServerRpc&quot;,&quot;resize&quot;,[1547,730,1547,730]]],&quot;syncId&quot;:0,&quot;clientId&quot;:0,&quot;wsver&quot;:&quot;8.12.0&quot;}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="013 /VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/deferredjs/68879622C599FE6D0FFDE267BDB260B9/2.cache.js" rc="200" rm="SCRIPT" tn="RECORDER" dt="text" by="193" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=31536000&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 182&#xd;
+Content-Type: application/javascript&#xd;
+Date: Tue, 10 Nov 2020 15:21:49 GMT&#xd;
+Expires: Fri, 27 Nov 2020 16:02:17 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:29 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">$wnd.com_vaadin_DefaultWidgetSet.runAsyncCallback2(&apos;vjb(1895,1,Kne);_.$b=function Ezc(){mdc((!edc&amp;&amp;(edc=new udc),edc),this.a.d)};uhe(Dh)(2);\n//# sourceURL=com.vaadin.DefaultWidgetSet-2.js\n&apos;)
+</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/widgetsets/com.vaadin.DefaultWidgetSet/deferredjs/68879622C599FE6D0FFDE267BDB260B9/2.cache.js</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="014 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="155" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 155&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:23 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 106&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 2, &quot;clientId&quot;: 2, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{}, &quot;hierarchy&quot;:{}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[3, 0]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;0&quot;,&quot;com.vaadin.shared.ui.ui.UIServerRpc&quot;,&quot;resize&quot;,[1547,730,1547,730]]],&quot;syncId&quot;:1,&quot;clientId&quot;:1}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+<sample t="1000" it="0" lt="0" ct="0" ts="1605021829753" s="true" lb="002_filter" rc="" rm="" tn="RECORDER" dt="" by="3272" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="015 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="525" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 525&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:37 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 122&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 3, &quot;clientId&quot;: 3, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{&quot;13&quot;:&quot;7&quot;,&quot;15&quot;:&quot;7&quot;,&quot;17&quot;:&quot;7&quot;,&quot;4&quot;:&quot;4&quot;,&quot;9&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;13&quot;:[&quot;14&quot;],&quot;15&quot;:[&quot;16&quot;],&quot;17&quot;:[&quot;18&quot;],&quot;4&quot;:[],&quot;9&quot;:[]}, &quot;rpc&quot; : [[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[2]],[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;31&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Lara&quot;,&quot;17&quot;:&quot;lara@martin.com&quot;}},{&quot;k&quot;:&quot;32&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Katelyn&quot;,&quot;17&quot;:&quot;katelyn@martin.com&quot;}}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[3, 0]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;4&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;martin&quot;,6]]],&quot;syncId&quot;:2,&quot;clientId&quot;:2}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="016 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="2590" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 2590&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:41 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 110&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 4, &quot;clientId&quot;: 4, &quot;changes&quot; : [[&quot;change&quot;,{&quot;pid&quot;:&quot;0&quot;},[&quot;0&quot;,{&quot;id&quot;:&quot;0&quot;,&quot;focused&quot;:&quot;20&quot;,&quot;v&quot;:{&quot;action&quot;:&quot;&quot;}},[&quot;actions&quot;,{},[&quot;action&quot;,{&quot;key&quot;:&quot;1&quot;,&quot;kc&quot;:13,&quot;mk&quot;:[]}]]]]], &quot;state&quot;:{&quot;19&quot;:{&quot;spacing&quot;:true,&quot;childData&quot;:{&quot;20&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;21&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;22&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;23&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;25&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;26&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0}},&quot;marginsBitmask&quot;:5},&quot;20&quot;:{&quot;text&quot;:&quot;Lara&quot;,&quot;caption&quot;:&quot;First name&quot;},&quot;21&quot;:{&quot;text&quot;:&quot;Martin&quot;,&quot;caption&quot;:&quot;Last name&quot;},&quot;22&quot;:{&quot;text&quot;:&quot;lara@martin.com&quot;,&quot;caption&quot;:&quot;Email&quot;},&quot;23&quot;:{&quot;selectedItemKey&quot;:&quot;1&quot;,&quot;caption&quot;:&quot;Status&quot;},&quot;25&quot;:{&quot;locale&quot;:&quot;en_US&quot;,&quot;resolutions&quot;:{&quot;default-DAY&quot;:null,&quot;MONTH&quot;:6,&quot;YEAR&quot;:2013,&quot;default-MONTH&quot;:null,&quot;default-YEAR&quot;:null,&quot;DAY&quot;:29},&quot;caption&quot;:&quot;Birthday&quot;},&quot;26&quot;:{&quot;spacing&quot;:true,&quot;childData&quot;:{&quot;27&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;28&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0}}},&quot;27&quot;:{&quot;clickShortcutKeyCode&quot;:13,&quot;caption&quot;:&quot;Save&quot;,&quot;styles&quot;:[&quot;primary&quot;]},&quot;28&quot;:{&quot;caption&quot;:&quot;Delete&quot;},&quot;7&quot;:{&quot;childData&quot;:{&quot;19&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;8&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:1}}}}, &quot;types&quot;:{&quot;0&quot;:&quot;0&quot;,&quot;19&quot;:&quot;31&quot;,&quot;20&quot;:&quot;4&quot;,&quot;21&quot;:&quot;4&quot;,&quot;22&quot;:&quot;4&quot;,&quot;23&quot;:&quot;30&quot;,&quot;24&quot;:&quot;8&quot;,&quot;25&quot;:&quot;29&quot;,&quot;26&quot;:&quot;10&quot;,&quot;27&quot;:&quot;11&quot;,&quot;28&quot;:&quot;11&quot;,&quot;7&quot;:&quot;10&quot;,&quot;9&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;0&quot;:[&quot;1&quot;],&quot;19&quot;:[&quot;20&quot;,&quot;21&quot;,&quot;22&quot;,&quot;23&quot;,&quot;25&quot;,&quot;26&quot;],&quot;23&quot;:[&quot;24&quot;],&quot;24&quot;:[],&quot;26&quot;:[&quot;27&quot;,&quot;28&quot;],&quot;7&quot;:[&quot;8&quot;,&quot;19&quot;],&quot;9&quot;:[]}, &quot;rpc&quot; : [[&quot;20&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldClientRpc&quot;,&quot;selectAll&quot;,[]],[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;updateData&quot;,[[{&quot;k&quot;:&quot;31&quot;,&quot;s&quot;:true,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Lara&quot;,&quot;17&quot;:&quot;lara@martin.com&quot;}}]]],[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[5]],[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;2&quot;,&quot;d&quot;:&quot;ImportedLead&quot;},{&quot;k&quot;:&quot;3&quot;,&quot;d&quot;:&quot;NotContacted&quot;},{&quot;k&quot;:&quot;4&quot;,&quot;d&quot;:&quot;Contacted&quot;},{&quot;k&quot;:&quot;1&quot;,&quot;d&quot;:&quot;Customer&quot;},{&quot;k&quot;:&quot;5&quot;,&quot;d&quot;:&quot;ClosedLost&quot;}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;typeMappings&quot; : { &quot;com.vaadin.ui.AbstractLocalDateField&quot; : 32 , &quot;com.vaadin.ui.DateField&quot; : 29 , &quot;com.vaadin.ui.NativeSelect&quot; : 30 , &quot;my.vaadin.app.CustomerForm&quot; : 31 , &quot;com.vaadin.ui.FormLayout&quot; : 33 , &quot;com.vaadin.ui.AbstractDateField&quot; : 34 , &quot;com.vaadin.ui.AbstractSingleSelect&quot; : 35 }, &quot;typeInheritanceMap&quot; : { &quot;13&quot; : 24 , &quot;0&quot; : 26 , &quot;14&quot; : 17 , &quot;15&quot; : 24 , &quot;16&quot; : 24 , &quot;18&quot; : 24 , &quot;32&quot; : 34 , &quot;19&quot; : 24 , &quot;29&quot; : 32 , &quot;26&quot; : 16 , &quot;30&quot; : 35 , &quot;21&quot; : 18 , &quot;10&quot; : 22 , &quot;11&quot; : 15 , &quot;31&quot; : 33 , &quot;33&quot; : 22 , &quot;34&quot; : 13 , &quot;22&quot; : 21 , &quot;4&quot; : 23 , &quot;8&quot; : 14 , &quot;23&quot; : 13 , &quot;35&quot; : 19 , &quot;24&quot; : 17 }, &quot;timings&quot;:[6, 3]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;10&quot;,&quot;com.vaadin.shared.data.selection.SelectionServerRpc&quot;,&quot;select&quot;,[&quot;31&quot;]]],&quot;syncId&quot;:3,&quot;clientId&quot;:3}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="017 /VAADIN/themes/valo/fonts/themeicons-webfont/themeicons-webfont.woff" rc="200" rm="FONT" tn="RECORDER" dt="" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 7868&#xd;
+Date: Tue, 10 Nov 2020 15:22:41 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:22:41 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/fonts/themeicons-webfont/themeicons-webfont.woff</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="018 /VAADIN/themes/valo/fonts/open-sans/OpenSans-Semibold-webfont.woff" rc="200" rm="FONT" tn="RECORDER" dt="" by="0" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: max-age=3600&#xd;
+Content-Length: 22908&#xd;
+Date: Tue, 10 Nov 2020 15:22:41 GMT&#xd;
+Expires: Tue, 10 Nov 2020 16:22:41 GMT&#xd;
+Last-Modified: Tue, 10 Nov 2020 12:40:51 GMT&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/VAADIN/themes/mytheme/styles.css?v=8.12.0&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://localhost:8080/VAADIN/themes/valo/fonts/open-sans/OpenSans-Semibold-webfont.woff</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="019 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="157" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 157&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:45 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 256&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 5, &quot;clientId&quot;: 5, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{}, &quot;hierarchy&quot;:{}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[51, 45]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;6/29/13&quot;,{&quot;YEAR&quot;:2013,&quot;MONTH&quot;:6,&quot;DAY&quot;:29}]],[&quot;20&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;Lara&quot;,0]]],&quot;syncId&quot;:4,&quot;clientId&quot;:4}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+<sample t="1000" it="0" lt="0" ct="0" ts="1605021829754" s="true" lb="003_edit" rc="" rm="" tn="RECORDER" dt="" by="1220" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="020 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="349" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 349&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:52 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 109&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 6, &quot;clientId&quot;: 6, &quot;changes&quot; : [], &quot;state&quot;:{&quot;23&quot;:{&quot;selectedItemKey&quot;:&quot;2&quot;}}, &quot;types&quot;:{&quot;23&quot;:&quot;30&quot;,&quot;24&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;23&quot;:[&quot;24&quot;],&quot;24&quot;:[]}, &quot;rpc&quot; : [[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;updateData&quot;,[[{&quot;k&quot;:&quot;1&quot;,&quot;d&quot;:&quot;Customer&quot;},{&quot;k&quot;:&quot;2&quot;,&quot;d&quot;:&quot;ImportedLead&quot;}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[52, 1]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;23&quot;,&quot;com.vaadin.shared.data.selection.SelectionServerRpc&quot;,&quot;select&quot;,[&quot;2&quot;]]],&quot;syncId&quot;:5,&quot;clientId&quot;:5}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="021 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="279" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 279&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:55 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 254&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 7, &quot;clientId&quot;: 7, &quot;changes&quot; : [], &quot;state&quot;:{&quot;25&quot;:{&quot;resolutions&quot;:{&quot;default-DAY&quot;:null,&quot;MONTH&quot;:5,&quot;YEAR&quot;:2013,&quot;default-MONTH&quot;:null,&quot;default-YEAR&quot;:null,&quot;DAY&quot;:27}}}, &quot;types&quot;:{&quot;25&quot;:&quot;29&quot;}, &quot;hierarchy&quot;:{}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[67, 15]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;5/27/13&quot;,{&quot;YEAR&quot;:2013,&quot;MONTH&quot;:5,&quot;DAY&quot;:27}]],[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;update&quot;,[null,[]]]],&quot;syncId&quot;:6,&quot;clientId&quot;:6}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="022 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="592" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 592&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:22:57 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 381&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 8, &quot;clientId&quot;: 8, &quot;changes&quot; : [], &quot;state&quot;:{&quot;7&quot;:{&quot;childData&quot;:{&quot;8&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:1}}}}, &quot;types&quot;:{&quot;13&quot;:&quot;7&quot;,&quot;15&quot;:&quot;7&quot;,&quot;17&quot;:&quot;7&quot;,&quot;7&quot;:&quot;10&quot;,&quot;9&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;13&quot;:[&quot;14&quot;],&quot;15&quot;:[&quot;16&quot;],&quot;17&quot;:[&quot;18&quot;],&quot;7&quot;:[&quot;8&quot;],&quot;9&quot;:[]}, &quot;rpc&quot; : [[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[2]],[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;33&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Lara&quot;,&quot;17&quot;:&quot;lara@martin.com&quot;}},{&quot;k&quot;:&quot;34&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Katelyn&quot;,&quot;17&quot;:&quot;katelyn@martin.com&quot;}}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[69, 2]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;5/27/13&quot;,{&quot;YEAR&quot;:2013,&quot;MONTH&quot;:5,&quot;DAY&quot;:27}]],[&quot;27&quot;,&quot;com.vaadin.shared.ui.button.ButtonServerRpc&quot;,&quot;click&quot;,[{&quot;altKey&quot;:false,&quot;button&quot;:&quot;LEFT&quot;,&quot;clientX&quot;:1355,&quot;clientY&quot;:386,&quot;ctrlKey&quot;:false,&quot;metaKey&quot;:false,&quot;relativeX&quot;:30,&quot;relativeY&quot;:19,&quot;shiftKey&quot;:false,&quot;type&quot;:1}]]],&quot;syncId&quot;:7,&quot;clientId&quot;:7}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+<sample t="1000" it="0" lt="0" ct="0" ts="1605021829754" s="true" lb="004_add new" rc="" rm="" tn="RECORDER" dt="" by="3674" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="023 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="1785" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 1785&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:08 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 243&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 9, &quot;clientId&quot;: 9, &quot;changes&quot; : [[&quot;change&quot;,{&quot;pid&quot;:&quot;0&quot;},[&quot;0&quot;,{&quot;id&quot;:&quot;0&quot;,&quot;focused&quot;:&quot;20&quot;,&quot;v&quot;:{&quot;action&quot;:&quot;&quot;}},[&quot;actions&quot;,{},[&quot;action&quot;,{&quot;key&quot;:&quot;1&quot;,&quot;kc&quot;:13,&quot;mk&quot;:[]}]]]]], &quot;state&quot;:{&quot;19&quot;:{&quot;spacing&quot;:true,&quot;childData&quot;:{&quot;20&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;21&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;22&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;23&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;25&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;26&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0}},&quot;marginsBitmask&quot;:5},&quot;20&quot;:{&quot;caption&quot;:&quot;First name&quot;},&quot;21&quot;:{&quot;caption&quot;:&quot;Last name&quot;},&quot;22&quot;:{&quot;caption&quot;:&quot;Email&quot;},&quot;23&quot;:{&quot;caption&quot;:&quot;Status&quot;},&quot;25&quot;:{&quot;locale&quot;:&quot;en_US&quot;,&quot;resolutions&quot;:{&quot;default-DAY&quot;:null,&quot;MONTH&quot;:null,&quot;YEAR&quot;:null,&quot;default-MONTH&quot;:null,&quot;default-YEAR&quot;:null,&quot;DAY&quot;:null},&quot;caption&quot;:&quot;Birthday&quot;},&quot;26&quot;:{&quot;spacing&quot;:true,&quot;childData&quot;:{&quot;27&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0}}},&quot;27&quot;:{&quot;clickShortcutKeyCode&quot;:13,&quot;caption&quot;:&quot;Save&quot;,&quot;styles&quot;:[&quot;primary&quot;]},&quot;7&quot;:{&quot;childData&quot;:{&quot;19&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:0},&quot;8&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:1}}}}, &quot;types&quot;:{&quot;0&quot;:&quot;0&quot;,&quot;19&quot;:&quot;31&quot;,&quot;20&quot;:&quot;4&quot;,&quot;21&quot;:&quot;4&quot;,&quot;22&quot;:&quot;4&quot;,&quot;23&quot;:&quot;30&quot;,&quot;24&quot;:&quot;8&quot;,&quot;25&quot;:&quot;29&quot;,&quot;26&quot;:&quot;10&quot;,&quot;27&quot;:&quot;11&quot;,&quot;7&quot;:&quot;10&quot;}, &quot;hierarchy&quot;:{&quot;0&quot;:[&quot;1&quot;],&quot;19&quot;:[&quot;20&quot;,&quot;21&quot;,&quot;22&quot;,&quot;23&quot;,&quot;25&quot;,&quot;26&quot;],&quot;23&quot;:[&quot;24&quot;],&quot;24&quot;:[],&quot;26&quot;:[&quot;27&quot;],&quot;7&quot;:[&quot;8&quot;,&quot;19&quot;]}, &quot;rpc&quot; : [[&quot;20&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldClientRpc&quot;,&quot;selectAll&quot;,[]],[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[5]],[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;updateData&quot;,[[{&quot;k&quot;:&quot;2&quot;,&quot;d&quot;:&quot;ImportedLead&quot;}]]],[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;2&quot;,&quot;d&quot;:&quot;ImportedLead&quot;},{&quot;k&quot;:&quot;3&quot;,&quot;d&quot;:&quot;NotContacted&quot;},{&quot;k&quot;:&quot;4&quot;,&quot;d&quot;:&quot;Contacted&quot;},{&quot;k&quot;:&quot;1&quot;,&quot;d&quot;:&quot;Customer&quot;},{&quot;k&quot;:&quot;5&quot;,&quot;d&quot;:&quot;ClosedLost&quot;}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[78, 9]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;6&quot;,&quot;com.vaadin.shared.ui.button.ButtonServerRpc&quot;,&quot;click&quot;,[{&quot;altKey&quot;:false,&quot;button&quot;:&quot;LEFT&quot;,&quot;clientX&quot;:371,&quot;clientY&quot;:65,&quot;ctrlKey&quot;:false,&quot;metaKey&quot;:false,&quot;relativeX&quot;:92,&quot;relativeY&quot;:28,&quot;shiftKey&quot;:false,&quot;type&quot;:1}]]],&quot;syncId&quot;:8,&quot;clientId&quot;:8}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="024 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="173" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 173&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:14 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 220&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 10, &quot;clientId&quot;: 10, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{&quot;20&quot;:&quot;4&quot;}, &quot;hierarchy&quot;:{&quot;20&quot;:[]}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[84, 6]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;&quot;,[]]],[&quot;20&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;Smart&quot;,5]]],&quot;syncId&quot;:9,&quot;clientId&quot;:9}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="025 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="173" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 173&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:18 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 124&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 11, &quot;clientId&quot;: 11, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{&quot;21&quot;:&quot;4&quot;}, &quot;hierarchy&quot;:{&quot;21&quot;:[]}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[85, 1]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;21&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;Meter&quot;,5]]],&quot;syncId&quot;:10,&quot;clientId&quot;:10}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="026 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="173" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 173&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:20 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 120&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 12, &quot;clientId&quot;: 12, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{&quot;22&quot;:&quot;4&quot;}, &quot;hierarchy&quot;:{&quot;22&quot;:[]}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[85, 0]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;22&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;s&quot;,1]]],&quot;syncId&quot;:11,&quot;clientId&quot;:11}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="027 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="173" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 173&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:21 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 122&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 13, &quot;clientId&quot;: 13, &quot;changes&quot; : [], &quot;state&quot;:{}, &quot;types&quot;:{&quot;22&quot;:&quot;4&quot;}, &quot;hierarchy&quot;:{&quot;22&quot;:[]}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[86, 1]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;22&quot;,&quot;com.vaadin.shared.ui.textfield.AbstractTextFieldServerRpc&quot;,&quot;setText&quot;,[&quot;s@m&quot;,3]]],&quot;syncId&quot;:12,&quot;clientId&quot;:12}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="028 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="323" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 323&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:24 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 111&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 14, &quot;clientId&quot;: 14, &quot;changes&quot; : [], &quot;state&quot;:{&quot;23&quot;:{&quot;selectedItemKey&quot;:&quot;4&quot;}}, &quot;types&quot;:{&quot;23&quot;:&quot;30&quot;,&quot;24&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;23&quot;:[&quot;24&quot;],&quot;24&quot;:[]}, &quot;rpc&quot; : [[&quot;24&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;updateData&quot;,[[{&quot;k&quot;:&quot;4&quot;,&quot;d&quot;:&quot;Contacted&quot;}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[87, 1]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;23&quot;,&quot;com.vaadin.shared.data.selection.SelectionServerRpc&quot;,&quot;select&quot;,[&quot;4&quot;]]],&quot;syncId&quot;:13,&quot;clientId&quot;:13}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="029 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="280" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 280&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:26 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 256&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 15, &quot;clientId&quot;: 15, &quot;changes&quot; : [], &quot;state&quot;:{&quot;25&quot;:{&quot;resolutions&quot;:{&quot;default-DAY&quot;:null,&quot;MONTH&quot;:11,&quot;YEAR&quot;:2020,&quot;default-MONTH&quot;:null,&quot;default-YEAR&quot;:null,&quot;DAY&quot;:9}}}, &quot;types&quot;:{&quot;25&quot;:&quot;29&quot;}, &quot;hierarchy&quot;:{}, &quot;rpc&quot; : [], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[87, 0]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;11/9/20&quot;,{&quot;YEAR&quot;:2020,&quot;MONTH&quot;:11,&quot;DAY&quot;:9}]],[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;update&quot;,[null,[]]]],&quot;syncId&quot;:14,&quot;clientId&quot;:14}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="030 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="594" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 594&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:28 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 383&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 16, &quot;clientId&quot;: 16, &quot;changes&quot; : [], &quot;state&quot;:{&quot;7&quot;:{&quot;childData&quot;:{&quot;8&quot;:{&quot;alignmentBitmask&quot;:5,&quot;expandRatio&quot;:1}}}}, &quot;types&quot;:{&quot;13&quot;:&quot;7&quot;,&quot;15&quot;:&quot;7&quot;,&quot;17&quot;:&quot;7&quot;,&quot;7&quot;:&quot;10&quot;,&quot;9&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;13&quot;:[&quot;14&quot;],&quot;15&quot;:[&quot;16&quot;],&quot;17&quot;:[&quot;18&quot;],&quot;7&quot;:[&quot;8&quot;],&quot;9&quot;:[]}, &quot;rpc&quot; : [[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[2]],[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;35&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Lara&quot;,&quot;17&quot;:&quot;lara@martin.com&quot;}},{&quot;k&quot;:&quot;36&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Katelyn&quot;,&quot;17&quot;:&quot;katelyn@martin.com&quot;}}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[89, 2]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;25&quot;,&quot;com.vaadin.shared.ui.datefield.AbstractDateFieldServerRpc&quot;,&quot;updateValueWithDelay&quot;,[&quot;11/9/20&quot;,{&quot;YEAR&quot;:2020,&quot;MONTH&quot;:11,&quot;DAY&quot;:9}]],[&quot;27&quot;,&quot;com.vaadin.shared.ui.button.ButtonServerRpc&quot;,&quot;click&quot;,[{&quot;altKey&quot;:false,&quot;button&quot;:&quot;LEFT&quot;,&quot;clientX&quot;:1364,&quot;clientY&quot;:385,&quot;ctrlKey&quot;:false,&quot;metaKey&quot;:false,&quot;relativeX&quot;:39,&quot;relativeY&quot;:18,&quot;shiftKey&quot;:false,&quot;type&quot;:1}]]],&quot;syncId&quot;:15,&quot;clientId&quot;:15}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+<sample t="1000" it="0" lt="0" ct="0" ts="1605021829754" s="true" lb="005_cancel filter" rc="" rm="" tn="RECORDER" dt="" by="2603" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+  <httpSample t="0" it="0" lt="0" ct="0" ts="0" s="true" lb="031 /UIDL/" rc="200" rm="XHR" tn="RECORDER" dt="text" by="2603" sby="0" ng="0" na="0" hn="mkt-wrk-ntb">
+    <responseHeader class="java.lang.String">Cache-Control: no-cache, no-store, must-revalidate&#xd;
+Content-Length: 2603&#xd;
+Content-Type: application/json; charset=UTF-8&#xd;
+Date: Tue, 10 Nov 2020 15:23:39 GMT&#xd;
+Expires: 0&#xd;
+Pragma: no-cache&#xd;
+Server: Jetty(9.3.9.v20160517)&#xd;
+</responseHeader>
+    <requestHeader class="java.lang.String">Content-Type: application/json; charset=UTF-8&#xd;
+Origin: http://localhost:8080&#xd;
+Referer: http://localhost:8080/&#xd;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SmartMeter.ioRecorder/1.2.17 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36&#xd;
+Accept: */*&#xd;
+Accept-Encoding: gzip, deflate, br&#xd;
+Accept-Language: en-US&#xd;
+Connection: keep-alive&#xd;
+Content-Length: 245&#xd;
+Cookie: JSESSIONID=1716kdvctrb5vuahh3v3sdbt0&#xd;
+Host: localhost:8080&#xd;
+</requestHeader>
+    <responseData class="java.lang.String">for(;;);[{&quot;syncId&quot;: 17, &quot;clientId&quot;: 17, &quot;changes&quot; : [], &quot;state&quot;:{&quot;4&quot;:{&quot;text&quot;:&quot;&quot;}}, &quot;types&quot;:{&quot;13&quot;:&quot;7&quot;,&quot;15&quot;:&quot;7&quot;,&quot;17&quot;:&quot;7&quot;,&quot;4&quot;:&quot;4&quot;,&quot;9&quot;:&quot;8&quot;}, &quot;hierarchy&quot;:{&quot;13&quot;:[&quot;14&quot;],&quot;15&quot;:[&quot;16&quot;],&quot;17&quot;:[&quot;18&quot;],&quot;9&quot;:[]}, &quot;rpc&quot; : [[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;reset&quot;,[31]],[&quot;9&quot;,&quot;com.vaadin.shared.data.DataCommunicatorClientRpc&quot;,&quot;setData&quot;,[0,[{&quot;k&quot;:&quot;37&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Meter&quot;,&quot;15&quot;:&quot;Smart&quot;,&quot;17&quot;:&quot;s@m&quot;}},{&quot;k&quot;:&quot;38&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Nilsen&quot;,&quot;15&quot;:&quot;Bernard&quot;,&quot;17&quot;:&quot;bernard@nilsen.com&quot;}},{&quot;k&quot;:&quot;39&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Jackson&quot;,&quot;15&quot;:&quot;Jaydan&quot;,&quot;17&quot;:&quot;jaydan@jackson.com&quot;}},{&quot;k&quot;:&quot;40&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Olsen&quot;,&quot;15&quot;:&quot;Solomon&quot;,&quot;17&quot;:&quot;solomon@olsen.com&quot;}},{&quot;k&quot;:&quot;41&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Olsen&quot;,&quot;15&quot;:&quot;Elvis&quot;,&quot;17&quot;:&quot;elvis@olsen.com&quot;}},{&quot;k&quot;:&quot;42&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Carlsson&quot;,&quot;15&quot;:&quot;Rene&quot;,&quot;17&quot;:&quot;rene@carlsson.com&quot;}},{&quot;k&quot;:&quot;43&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Andersson&quot;,&quot;15&quot;:&quot;Remington&quot;,&quot;17&quot;:&quot;remington@andersson.com&quot;}},{&quot;k&quot;:&quot;44&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Andersson&quot;,&quot;15&quot;:&quot;Ann&quot;,&quot;17&quot;:&quot;ann@andersson.com&quot;}},{&quot;k&quot;:&quot;45&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Lara&quot;,&quot;17&quot;:&quot;lara@martin.com&quot;}},{&quot;k&quot;:&quot;46&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Olsson&quot;,&quot;15&quot;:&quot;Jamar&quot;,&quot;17&quot;:&quot;jamar@olsson.com&quot;}},{&quot;k&quot;:&quot;47&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Karlsen&quot;,&quot;15&quot;:&quot;Gunner&quot;,&quot;17&quot;:&quot;gunner@karlsen.com&quot;}},{&quot;k&quot;:&quot;48&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Harris&quot;,&quot;15&quot;:&quot;Leland&quot;,&quot;17&quot;:&quot;leland@harris.com&quot;}},{&quot;k&quot;:&quot;49&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Watson&quot;,&quot;15&quot;:&quot;Danielle&quot;,&quot;17&quot;:&quot;danielle@watson.com&quot;}},{&quot;k&quot;:&quot;50&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Smith&quot;,&quot;15&quot;:&quot;Makena&quot;,&quot;17&quot;:&quot;makena@smith.com&quot;}},{&quot;k&quot;:&quot;51&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Hansson&quot;,&quot;15&quot;:&quot;Quinn&quot;,&quot;17&quot;:&quot;quinn@hansson.com&quot;}},{&quot;k&quot;:&quot;52&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Carlsson&quot;,&quot;15&quot;:&quot;Israel&quot;,&quot;17&quot;:&quot;israel@carlsson.com&quot;}},{&quot;k&quot;:&quot;53&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Martin&quot;,&quot;15&quot;:&quot;Katelyn&quot;,&quot;17&quot;:&quot;katelyn@martin.com&quot;}},{&quot;k&quot;:&quot;54&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Walker&quot;,&quot;15&quot;:&quot;Eileen&quot;,&quot;17&quot;:&quot;eileen@walker.com&quot;}},{&quot;k&quot;:&quot;55&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Gustavsson&quot;,&quot;15&quot;:&quot;Kelly&quot;,&quot;17&quot;:&quot;kelly@gustavsson.com&quot;}},{&quot;k&quot;:&quot;56&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Jackson&quot;,&quot;15&quot;:&quot;Yurem&quot;,&quot;17&quot;:&quot;yurem@jackson.com&quot;}},{&quot;k&quot;:&quot;57&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Davis&quot;,&quot;15&quot;:&quot;Ryann&quot;,&quot;17&quot;:&quot;ryann@davis.com&quot;}},{&quot;k&quot;:&quot;58&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Davis&quot;,&quot;15&quot;:&quot;Corinne&quot;,&quot;17&quot;:&quot;corinne@davis.com&quot;}},{&quot;k&quot;:&quot;59&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Stewart&quot;,&quot;15&quot;:&quot;Emily&quot;,&quot;17&quot;:&quot;emily@stewart.com&quot;}},{&quot;k&quot;:&quot;60&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Svensson&quot;,&quot;15&quot;:&quot;Haiden&quot;,&quot;17&quot;:&quot;haiden@svensson.com&quot;}},{&quot;k&quot;:&quot;61&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Gustavsson&quot;,&quot;15&quot;:&quot;Yahir&quot;,&quot;17&quot;:&quot;yahir@gustavsson.com&quot;}},{&quot;k&quot;:&quot;62&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Karlsson&quot;,&quot;15&quot;:&quot;Angel&quot;,&quot;17&quot;:&quot;angel@karlsson.com&quot;}},{&quot;k&quot;:&quot;63&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Macdonald&quot;,&quot;15&quot;:&quot;Alejandro&quot;,&quot;17&quot;:&quot;alejandro@macdonald.com&quot;}},{&quot;k&quot;:&quot;64&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Johansen&quot;,&quot;15&quot;:&quot;Koen&quot;,&quot;17&quot;:&quot;koen@johansen.com&quot;}},{&quot;k&quot;:&quot;65&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Haugen&quot;,&quot;15&quot;:&quot;Eduardo&quot;,&quot;17&quot;:&quot;eduardo@haugen.com&quot;}},{&quot;k&quot;:&quot;66&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Robinson&quot;,&quot;15&quot;:&quot;Brian&quot;,&quot;17&quot;:&quot;brian@robinson.com&quot;}},{&quot;k&quot;:&quot;67&quot;,&quot;d&quot;:{&quot;13&quot;:&quot;Patel&quot;,&quot;15&quot;:&quot;Gabrielle&quot;,&quot;17&quot;:&quot;gabrielle@patel.com&quot;}}]]]], &quot;meta&quot; : {}, &quot;resources&quot; : {}, &quot;timings&quot;:[92, 3]}]</responseData>
+    <cookies class="java.lang.String">JSESSIONID=1716kdvctrb5vuahh3v3sdbt0</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">{&quot;rpc&quot;:[[&quot;5&quot;,&quot;com.vaadin.shared.ui.button.ButtonServerRpc&quot;,&quot;click&quot;,[{&quot;altKey&quot;:false,&quot;button&quot;:&quot;LEFT&quot;,&quot;clientX&quot;:253,&quot;clientY&quot;:58,&quot;ctrlKey&quot;:false,&quot;metaKey&quot;:false,&quot;relativeX&quot;:32,&quot;relativeY&quot;:21,&quot;shiftKey&quot;:false,&quot;type&quot;:1}]]],&quot;syncId&quot;:16,&quot;clientId&quot;:16}</queryString>
+    <java.net.URL>http://localhost:8080/UIDL/?v-uiId=0</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+</testResults>
